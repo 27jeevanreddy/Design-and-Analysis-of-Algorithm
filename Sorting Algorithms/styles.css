@@ -1,0 +1,59 @@
+/* Jeevan Reddy Bodapatla 1001949287 */
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: courier, serif;
+  padding-top: 20px;
+  background-color: aliceblue !important;
+}
+
+.sticky-body {
+  min-height: calc(100vh - 80px);
+}
+
+label {
+  padding-left: 20px;
+}
+
+.heading {
+  text-align: center;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+
+.col-6 {
+  width: 100% !important;
+  padding-left: 28% !important;
+}
+
+.chart {
+  width: 900px;
+  height: 500px;
+  margin-left: 25%;
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
+
+#result {
+  margin-left: 25%;
+  padding-top: 5px;
+}
+
+#padding,
+#inputData {
+  visibility: hidden;
+  margin-left: 25%;
+  padding-top: 10px;
+}
+
+.footer {
+  height: 50px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
